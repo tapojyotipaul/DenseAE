@@ -610,6 +610,7 @@ if __name__=='__main__':
     ob_ct = 1  # Start with a single observation
     logging.info(STATS)
     temp_df = pd.DataFrame()
+    print("Inferencing Started")
     while ob_ct <= 10000:
         temp = run_inference(ob_ct)
         temp["No_of_Observation"] = ob_ct

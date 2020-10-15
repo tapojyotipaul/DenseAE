@@ -8,6 +8,8 @@ Created on Wed Oct 14 14:45:06 2020
 import tensorflow as tf
 from keras.backend.tensorflow_backend import set_session
 config = tf.ConfigProto()
+#from tensorflow.python.keras.backend import set_session
+#tf.compat.v1.ConfigProto()
 config.gpu_options.allocator_type = 'BFC' #A "Best-fit with coalescing" algorithm, simplified from a version of dlmalloc.
 config.gpu_options.per_process_gpu_memory_fraction = 0.3
 config.gpu_options.allow_growth = True
@@ -65,6 +67,7 @@ from numpy.random import seed
 seed(1)
 from tensorflow import set_random_seed
 set_random_seed(2)
+#tensorflow.random.set_seed(x)
 from sklearn.preprocessing import MinMaxScaler, StandardScaler
 from scipy import stats
 

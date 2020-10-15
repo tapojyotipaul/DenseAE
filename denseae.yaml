@@ -16,8 +16,8 @@ feature:
 
 fit:
   compile:
-  optimizer : adam
-  loss : mean_squared_error
+    optimizer : adam
+    loss : mean_squared_error
   epochs : 100
   batch_size : 512
   shuffle : True

@@ -1,5 +1,5 @@
 # Dense-AE-Validation
-Dataset obtained from :https://github.com/MIMII-hitachi/mimii_baselin
+Dataset obtained from :https://github.com/MIMII-hitachi/mimii_baseline
 ## Steps to Run:
 - conda install -c conda-forge librosa
 - conda install -c conda-forge tensorflow (For GPU use: conda install -c conda-forge tensorflow-gpu)

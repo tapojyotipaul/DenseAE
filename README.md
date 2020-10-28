@@ -1,8 +1,8 @@
 # Dense-AE-Validation
 Dataset obtained from :https://github.com/MIMII-hitachi/mimii_baseline
 ## Steps to Run:
-- Run run.sh directly (incase of tensorflow cpu)
-- Uncomment line #9 and comment line #8 incase of tensorflow-gpu installation
+- Run run.sh directly (in case of tensorflow cpu)
+- Uncomment line #9 and comment line #8 in case of tensorflow-gpu installation
 
 ## Steps to Run (Without run.sh):
 - conda install -c conda-forge librosa
